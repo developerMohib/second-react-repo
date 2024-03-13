@@ -1,0 +1,10 @@
+
+.bottleClass{
+    margin: 15px; 
+    border-radius: 15px;
+    border: 2px solid aqua;
+}
+
+.bottleClass img{
+    width: 200px;
+}

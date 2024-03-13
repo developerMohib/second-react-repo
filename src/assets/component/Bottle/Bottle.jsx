@@ -1,11 +1,26 @@
-import React, { useState } from 'react';
+
+// import React from 'react';
+
+import './Bottle.css'
 
 const Bottle = ( {bottle} ) => {
-    const [  ] = useState();
+    const { id, name, img, price, quantity, seller, ratings, ratingsCount,shipping,stock } = bottle;
     return (
-        <div>
-            
-        </div>
+        // <div className='bottleContainer'>
+
+            <div key={id} className="bottleClass">
+                <img src={img} alt={name} />
+                <h3> Name : {name}</h3>
+                <p> Price : {price} </p>
+                <p> Quantity : {quantity} </p>
+                <p> Seller : {seller} </p>
+                <p> Ratings : {ratings} </p>
+                <p> Ratings Count : {ratingsCount} </p>
+                <p> Shipping : {shipping} </p>
+                <p> Stock : {stock} </p>
+            </div>
+
+        // </div>
     );
 };
 
