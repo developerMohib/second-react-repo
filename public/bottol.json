@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Hydro Flask Standard Mouth Water Bottle",
+      "id": 1,
+      "size": "32 oz",
+      "color": "Black",
+      "imageUrl": "https://ibb.co/68rZJDn",
+      "price": 39.99
+    },
+    {
+      "name": "S'well Stainless Steel Water Bottle",
+      "id": 2,
+      "size": "16 oz",
+      "color": "Rose Gold",
+      "imageUrl": "https://ibb.co/68rZJDn",
+      "price": 34.95
+    },
+    {
+      "name": "Klean Kanteen Classic Water Bottle",
+      "id": 3,
+      "size": "12 oz",
+      "color": "Stainless Steel",
+      "imageUrl": "https://ibb.co/68rZJDn",
+      "price": 27.99
+    },
+    {
+      "name": "Contigo Autospout Water Bottle",
+      "id": 4,
+      "size": "24 oz",
+      "color": "Teal",
+      "imageUrl": "https://ibb.co/68rZJDn",
+      "price": 24.99
+    },
+    {
+      "name": "Nalgene Wide Mouth Water Bottle",
+      "id": 5,
+      "color": "Clear",
+      "size": "32 oz",
+      "imageUrl": "https://ibb.co/68rZJDn",
+      "price": 14.99
+    }
+  ]
