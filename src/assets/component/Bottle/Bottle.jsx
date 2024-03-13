@@ -18,6 +18,8 @@ const Bottle = ( {bottle} ) => {
                 <p> Ratings Count : {ratingsCount} </p>
                 <p> Shipping : {shipping} </p>
                 <p> Stock : {stock} </p>
+
+                <button className='addToCart'> Add to Cart </button>
             </div>
 
         // </div>

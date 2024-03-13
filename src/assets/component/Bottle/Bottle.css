@@ -3,8 +3,17 @@
     margin: 15px; 
     border-radius: 15px;
     border: 2px solid aqua;
+    padding: 20px;
 }
 
 .bottleClass img{
     width: 200px;
+}
+.addToCart{
+    background-color: gray;
+}
+.addToCart:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid gray;
 }
