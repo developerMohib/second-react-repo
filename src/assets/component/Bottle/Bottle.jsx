@@ -3,7 +3,7 @@
 
 import './Bottle.css'
 
-const Bottle = ( {bottle} ) => {
+const Bottle = ( {bottle , buttonHandler } ) => {
     const { id, name, img, price, quantity, seller, ratings, ratingsCount,shipping,stock } = bottle;
     return (
         // <div className='bottleContainer'>
@@ -13,13 +13,13 @@ const Bottle = ( {bottle} ) => {
                 <h3> Name : {name}</h3>
                 <p> Price : {price} </p>
                 <p> Quantity : {quantity} </p>
-                <p> Seller : {seller} </p>
+                {/* <p> Seller : {seller} </p> */}
                 <p> Ratings : {ratings} </p>
-                <p> Ratings Count : {ratingsCount} </p>
-                <p> Shipping : {shipping} </p>
-                <p> Stock : {stock} </p>
+                {/* <p> Ratings Count : {ratingsCount} </p> */}
+                {/* <p> Shipping : {shipping} </p> */}
+                {/* <p> Stock : {stock} </p> */}
 
-                <button className='addToCart'> Add to Cart </button>
+                <button onClick={ () => buttonHandler(bottle)} className='addToCart'> Add to Cart </button>
             </div>
 
         // </div>
